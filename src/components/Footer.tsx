@@ -1,9 +1,11 @@
+import logoJuliano from "@/assets/logo_juliano.png";
+
 const Footer = () => {
   return (
     <footer className="bg-black py-12">
       <div className="container mx-auto px-4">
         <div className="text-center">
-          <div className="text-gold text-2xl font-bold mb-4">Juliano Silva</div>
+          <img src={logoJuliano} alt="Juliano Mentor" className="h-16 w-auto mx-auto mb-4" />
           <p className="text-gray-400 mb-2">
             © 2025 Comunicação Magnética para Sempre. Todos os direitos reservados.
           </p>

@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
+import logoJuliano from "@/assets/logo_juliano.png";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -32,7 +33,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           <div className="flex items-center">
-            <div className="text-gold text-2xl font-bold">Juliano Silva</div>
+            <img src={logoJuliano} alt="Juliano Mentor" className="h-12 w-auto" />
           </div>
 
           <div className="hidden lg:flex items-center gap-6">
