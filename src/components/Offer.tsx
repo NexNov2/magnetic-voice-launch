@@ -71,9 +71,9 @@ const Offer = () => {
                 asChild
                 size="lg"
                 variant="green"
-                className="flex-1 font-bold text-base sm:text-lg py-6"
+                className="flex-1 font-bold text-sm sm:text-base md:text-lg py-4 sm:py-6 h-auto whitespace-normal text-center leading-tight"
               >
-                <a href="https://chk.eduzz.com/2084135" target="_blank" rel="noopener noreferrer">
+                <a href="https://chk.eduzz.com/2084135" target="_blank" rel="noopener noreferrer" className="block">
                   Garantir meu desconto agora
                 </a>
               </Button>
@@ -81,9 +81,9 @@ const Offer = () => {
                 asChild
                 size="lg"
                 variant="outline"
-                className="flex-1 border-gold text-gold hover:bg-gold hover:text-primary font-bold text-base sm:text-lg py-6 bg-transparent"
+                className="flex-1 border-gold text-gold hover:bg-gold hover:text-primary font-bold text-sm sm:text-base md:text-lg py-4 sm:py-6 bg-transparent h-auto whitespace-normal text-center leading-tight"
               >
-                <a href="http://wa.me/554184511341" target="_blank" rel="noopener noreferrer">
+                <a href="http://wa.me/554184511341" target="_blank" rel="noopener noreferrer" className="block">
                   Falar no WhatsApp
                 </a>
               </Button>

@@ -46,7 +46,7 @@ const Content = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">
+        <div className="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto mb-12">
           {modules.map((module, index) => (
             <Card key={index} className="p-6 bg-secondary border-primary/10 hover:border-gold/30 transition-all">
               <div className="flex items-start gap-4">
@@ -60,19 +60,19 @@ const Content = () => {
               </div>
             </Card>
           ))}
+        </div>
 
-        <div className="text-center mt-12">
+        <div className="text-center px-4">
           <Button
             asChild
             size="lg"
             variant="green"
-            className="font-bold text-base sm:text-lg px-6 sm:px-8 py-6 w-full sm:w-auto max-w-md mx-auto"
+            className="font-bold text-sm sm:text-base md:text-lg px-4 sm:px-6 md:px-8 py-4 sm:py-6 w-full sm:w-auto max-w-md mx-auto h-auto whitespace-normal text-center leading-tight"
           >
-            <a href="https://chk.eduzz.com/2084135" target="_blank" rel="noopener noreferrer">
+            <a href="https://chk.eduzz.com/2084135" target="_blank" rel="noopener noreferrer" className="block">
               Quero acesso ao método
             </a>
           </Button>
-        </div>
         </div>
       </div>
     </section>

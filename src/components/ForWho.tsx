@@ -55,14 +55,14 @@ const ForWho = () => {
           })}
         </div>
 
-        <div className="text-center">
+        <div className="text-center px-4">
           <Button
             asChild
             size="lg"
             variant="green"
-            className="font-bold text-base sm:text-lg px-6 sm:px-8 py-6 w-full sm:w-auto max-w-md mx-auto"
+            className="font-bold text-sm sm:text-base md:text-lg px-4 sm:px-6 md:px-8 py-4 sm:py-6 w-full sm:w-auto max-w-md mx-auto h-auto whitespace-normal text-center leading-tight"
           >
-            <a href="https://chk.eduzz.com/2084135" target="_blank" rel="noopener noreferrer">
+            <a href="https://chk.eduzz.com/2084135" target="_blank" rel="noopener noreferrer" className="block">
               Sim, quero desenvolver minha comunicação
             </a>
           </Button>
