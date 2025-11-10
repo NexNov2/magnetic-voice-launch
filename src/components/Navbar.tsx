@@ -51,7 +51,8 @@ const Navbar = () => {
           <div className="hidden lg:block">
             <Button
               asChild
-              className="bg-gold text-primary hover:bg-gold/90 font-bold"
+              variant="green"
+              className="font-bold"
             >
               <a href="https://chk.eduzz.com/2084135" target="_blank" rel="noopener noreferrer">
                 Garanta seu desconto
@@ -82,7 +83,8 @@ const Navbar = () => {
             ))}
             <Button
               asChild
-              className="w-full mt-4 bg-gold text-primary hover:bg-gold/90 font-bold"
+              variant="green"
+              className="w-full mt-4 font-bold"
             >
               <a href="https://chk.eduzz.com/2084135" target="_blank" rel="noopener noreferrer">
                 Garanta seu desconto

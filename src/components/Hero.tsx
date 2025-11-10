@@ -5,7 +5,7 @@ import apresentImg from "@/assets/apresent.jpg";
 
 const Hero = () => {
   return (
-    <section className="relative min-h-screen flex items-center bg-primary overflow-hidden">
+    <section className="relative min-h-screen flex items-center overflow-hidden" style={{ backgroundColor: 'hsl(var(--bordo))' }}>
       <div
         className="absolute inset-0 opacity-20"
         style={{
@@ -21,8 +21,8 @@ const Hero = () => {
             🔥 Black Friday - R$199 de desconto até o fim da promoção
           </Badge>
 
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-black text-yellow-soft mb-6 leading-tight">
-            Fale com autoridade, confiança e impacto
+          <h1 className="text-3xl md:text-6xl lg:text-7xl font-black text-yellow-soft mb-6 leading-tight">
+            Fale com <span className="text-gold">autoridade</span>, <span className="text-gold">confiança</span> e <span className="text-gold">persuasão</span> em qualquer situação
           </h1>
 
           <p className="text-xl md:text-2xl text-gold mb-8 font-light">
@@ -60,7 +60,8 @@ const Hero = () => {
               <Button
                 asChild
                 size="lg"
-                className="bg-gold text-primary hover:bg-gold/90 font-bold text-lg px-8 py-6"
+                variant="green"
+                className="font-bold text-base sm:text-lg px-6 sm:px-8 py-6 w-full sm:w-auto"
               >
                 <a href="https://chk.eduzz.com/2084135" target="_blank" rel="noopener noreferrer">
                   Quero aproveitar meu desconto agora
@@ -70,7 +71,7 @@ const Hero = () => {
                 asChild
                 size="lg"
                 variant="outline"
-                className="border-gold text-gold hover:bg-gold hover:text-primary font-bold text-lg px-8 py-6"
+                className="border-gold text-gold hover:bg-gold hover:text-primary font-bold text-base sm:text-lg px-6 sm:px-8 py-6 w-full sm:w-auto bg-transparent"
               >
                 <a href="http://wa.me/554184511341" target="_blank" rel="noopener noreferrer">
                   Falar no WhatsApp

@@ -80,7 +80,8 @@ const FAQ = () => {
             <Button
               asChild
               size="lg"
-              className="bg-primary text-yellow-soft hover:bg-primary/90 font-bold text-lg px-8 py-6"
+              variant="green"
+              className="font-bold text-base sm:text-lg px-6 sm:px-8 py-6 w-full sm:w-auto max-w-md mx-auto"
             >
               <a href="https://chk.eduzz.com/2084135" target="_blank" rel="noopener noreferrer">
                 Aproveitar o desconto agora

@@ -4,15 +4,34 @@ import { Check } from "lucide-react";
 
 const Content = () => {
   const modules = [
-    "Fundamentos da Comunicação Magnética",
-    "Mindset de palco e autoconfiança",
-    "Estrutura de apresentações que encantam",
-    "Storytelling e técnicas de influência",
-    "Voz e dicção (ritmo, pausas e entonação)",
-    "Linguagem corporal e presença de palco",
-    "Slides que vendem e encantam",
-    "Pitch de vendas e persuasão",
-    "Treino prático com feedback guiado",
+    {
+      title: "Fundamentos da Comunicação Magnética",
+      description: "Base sólida para comunicar com impacto em qualquer situação"
+    },
+    {
+      title: "Mindset de palco: confiança e controle emocional",
+      description: "Técnicas para eliminar o medo e desenvolver confiança genuína"
+    },
+    {
+      title: "Estrutura de apresentação profissional",
+      description: "Abertura impactante, trilha lógica envolvente e fechamento memorável"
+    },
+    {
+      title: "Storytelling e persuasão (ethos, pathos, logos)",
+      description: "Como criar narrativas que convencem e emocionam sua audiência"
+    },
+    {
+      title: "Voz e dicção (projeção, ritmo, pausas)",
+      description: "Domine sua voz para transmitir autoridade e clareza"
+    },
+    {
+      title: "Linguagem corporal e presença cênica",
+      description: "Postura, gestos e movimento que reforçam sua mensagem"
+    },
+    {
+      title: "Treino prático guiado (feedback e melhorias)",
+      description: "Exercícios hands-on com análise detalhada para evolução contínua"
+    }
   ];
 
   return (
@@ -27,34 +46,33 @@ const Content = () => {
           </p>
         </div>
 
-        <div className="max-w-3xl mx-auto">
-          <Card className="p-8 bg-secondary border-primary/10">
-            <div className="space-y-4">
-              {modules.map((module, index) => (
-                <div
-                  key={index}
-                  className="flex items-start gap-4 p-4 rounded-lg hover:bg-background transition-colors"
-                >
-                  <div className="flex-shrink-0 w-8 h-8 rounded-full bg-primary flex items-center justify-center">
-                    <Check className="text-yellow-soft" size={20} />
-                  </div>
-                  <span className="text-lg font-medium text-primary">{module}</span>
+        <div className="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">
+          {modules.map((module, index) => (
+            <Card key={index} className="p-6 bg-secondary border-primary/10 hover:border-gold/30 transition-all">
+              <div className="flex items-start gap-4">
+                <div className="flex-shrink-0 w-10 h-10 rounded-full bg-primary flex items-center justify-center">
+                  <Check className="text-yellow-soft" size={20} />
                 </div>
-              ))}
-            </div>
-          </Card>
+                <div>
+                  <h3 className="text-lg font-bold text-primary mb-2">{module.title}</h3>
+                  <p className="text-sm text-muted-foreground">{module.description}</p>
+                </div>
+              </div>
+            </Card>
+          ))}
 
-          <div className="text-center mt-12">
-            <Button
-              asChild
-              size="lg"
-              className="bg-primary text-yellow-soft hover:bg-primary/90 font-bold text-lg px-8 py-6"
-            >
-              <a href="https://chk.eduzz.com/2084135" target="_blank" rel="noopener noreferrer">
-                Quero acesso ao método
-              </a>
-            </Button>
-          </div>
+        <div className="text-center mt-12">
+          <Button
+            asChild
+            size="lg"
+            variant="green"
+            className="font-bold text-base sm:text-lg px-6 sm:px-8 py-6 w-full sm:w-auto max-w-md mx-auto"
+          >
+            <a href="https://chk.eduzz.com/2084135" target="_blank" rel="noopener noreferrer">
+              Quero acesso ao método
+            </a>
+          </Button>
+        </div>
         </div>
       </div>
     </section>

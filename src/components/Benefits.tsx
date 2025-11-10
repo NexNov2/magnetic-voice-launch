@@ -75,7 +75,8 @@ const Benefits = () => {
           <Button
             asChild
             size="lg"
-            className="bg-gold text-primary hover:bg-gold/90 font-bold text-lg px-8 py-6"
+            variant="green"
+            className="font-bold text-base sm:text-lg px-6 sm:px-8 py-6 w-full sm:w-auto max-w-md mx-auto"
           >
             <a href="https://chk.eduzz.com/2084135" target="_blank" rel="noopener noreferrer">
               Quero essa transformação
