@@ -6,7 +6,7 @@ const FinalCTA = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl md:text-6xl font-black text-yellow-soft mb-6">
-            Últimos dias com R$199 de desconto
+            Últimos dias com R$299 de desconto
           </h2>
           <p className="text-2xl text-gold mb-12">
             Desbloqueie sua comunicação e aproveite o preço especial de Black Friday antes que acabe
