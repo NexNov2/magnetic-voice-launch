@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="text-center">
           <img src={logoJuliano} alt="Juliano Mentor" className="h-16 w-auto mx-auto mb-4" />
           <p className="text-gray-400 mb-2">
-            © 2025 Comunicação Magnética para Sempre. Todos os direitos reservados.
+            © 2025 Método Comunicação de Alta Performance!. Todos os direitos reservados.
           </p>
           <p className="text-gray-500 text-sm">
             Site desenvolvido por{" "}
