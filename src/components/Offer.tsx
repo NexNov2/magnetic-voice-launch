@@ -30,10 +30,10 @@ const Offer = () => {
                 <span className="text-lg">De </span>12x de R$ 51,40 ou R$ 497,00 à vista
               </div>
               <div className="text-gold text-5xl md:text-6xl font-black mb-2">
-                12x de R$ 30,82
+                12x de R$ 20,37
               </div>
               <div className="text-yellow-soft text-3xl font-bold">
-                ou R$ 298,00 à vista
+                ou R$ 197,00 à vista
               </div>
             </div>
 
