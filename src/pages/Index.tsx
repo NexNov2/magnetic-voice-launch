@@ -19,7 +19,7 @@ const Index = () => {
     const schemaProduct = {
       "@context": "https://schema.org",
       "@type": "Product",
-      name: "Comunicação Magnética para Sempre",
+      name: "Método Comunicação de Alta Performance",
       description: "Aprenda o método prático que transforma timidez em presença e voz em influência",
       brand: {
         "@type": "Brand",
@@ -38,7 +38,7 @@ const Index = () => {
     const schemaVideo = {
       "@context": "https://schema.org",
       "@type": "VideoObject",
-      name: "Comunicação Magnética para Sempre - Apresentação",
+      name: "Método Comunicação de Alta Performance - Apresentação",
       description: "Conheça o curso de comunicação com Juliano Silva",
       thumbnailUrl: "https://564346e0-74c1-4950-8f2a-b0017d90e318.lovableproject.com/apresent.jpg",
       uploadDate: "2025-01-01",
