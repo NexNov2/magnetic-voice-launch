@@ -18,7 +18,7 @@ const Hero = () => {
       <div className="container mx-auto px-4 py-32 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
           <Badge className="mb-6 bg-gold text-primary hover:bg-gold/90 text-base px-6 py-2">
-            🔥 Black Friday - R$199 de desconto até o fim da promoção
+            🔥 Black Friday - R$299 de desconto até o fim da promoção
           </Badge>
 
           <h1 className="text-3xl md:text-6xl lg:text-7xl font-black text-yellow-soft mb-6 leading-tight">
@@ -35,7 +35,7 @@ const Hero = () => {
                 width="100%"
                 height="100%"
                 src="https://www.youtube.com/embed/Cf4uB3Qaeog"
-                title="Comunicação Magnética para Sempre"
+                title="Método Comunicação de Alta Performance"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
@@ -49,10 +49,10 @@ const Hero = () => {
                 <span className="text-base">De </span>12x de R$ 51,40 ou R$ 497,00 à vista
               </div>
               <div className="text-gold text-4xl md:text-5xl font-black mb-2">
-                12x de R$ 30,82
+                12x de R$ 20,37
               </div>
               <div className="text-yellow-soft text-2xl font-bold">
-                ou R$ 298,00 à vista
+                ou R$ 197,00 à vista
               </div>
             </div>
 
