@@ -34,7 +34,7 @@ const Hero = () => {
               <iframe
                 width="100%"
                 height="100%"
-                src="https://www.youtube.com/embed/Cf4uB3Qaeog"
+                src="https://www.youtube.com/watch?v=knziO-f7Ae0"
                 title="Método Comunicação de Alta Performance"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
